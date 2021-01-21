@@ -1,5 +1,6 @@
 {
-    "python.autoComplete.extraPaths": [
-        "/opt/ros/eloquent/lib/python3.6/site-packages"
-    ]
+  "python.autoComplete.extraPaths": [
+    "/opt/ros/eloquent/lib/python3.6/site-packages"
+  ],
+  "ros.distro": "eloquent"
 }

@@ -5,19 +5,19 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='turlesim',
+            package='turtlesim',
             node_executable='turtlesim_node',
             node_namespace='turtlesim1',
             node_name='first'
         ),
         Node(
-            package='turlesim',
+            package='turtlesim',
             node_executable='turtlesim_node',
             node_namespace='turtlesim2',
             node_name='second'
         ),
         Node(
-            package='turlesim',
+            package='turtlesim',
             node_executable='mimic',
             node_name='mimic',
 
@@ -27,4 +27,3 @@ def generate_launch_description():
             ]
         )
     ])
-

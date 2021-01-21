@@ -5,9 +5,7 @@
         "databaseFilename": "",
         "limitSymbolsToIncludedHeaders": true
       },
-      "includePath": [
-        "/usr/include/**"
-      ],
+      "includePath": ["/usr/include/**"],
       "name": "ROS"
     }
   ],
