@@ -2,3 +2,6 @@
 	path = ros2_cheats_sheet
 	url = https://github.com/ubuntu-robotics/ros2_cheats_sheet
 	branch = master
+[submodule "ros2_support_ws/ros2-support"]
+	path = ros2_support_ws/ros2-support
+	url = https://github.com/bponsler/ros2-support
